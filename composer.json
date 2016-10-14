@@ -1,0 +1,18 @@
+{
+  "require": {
+    "symfony/var-dumper": "^3.1",
+    "twig/twig": "^1.26"
+  },
+  "require-dev": {},
+  "autoload": {
+      "psr-4": {
+      "App\\Controllers\\": "src/Controllers",
+      "App\\Models\\": "src/Models",
+      "App\\Interfaces\\": "src/Interfaces",
+      "App\\Repositories\\": "src/Repositories",
+      "App\\Services\\": "src/Services",
+      "App\\Classes\\": "src/Classes",
+      "App\\Functions\\": "src/Functions"
+    }
+  }
+}
